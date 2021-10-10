@@ -1,0 +1,8 @@
+a=int(input("Enter any number = "))
+i=a
+while i>=1:
+	b=1
+	b=b*i
+print("factorial of "+a+" is "+b)
+	
+	

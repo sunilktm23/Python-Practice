@@ -1,0 +1,5 @@
+name,word=input("Enter name and  a word ").split(",")
+length=len(name)
+print("length of your name is "+str(length))
+a=name.lower().count(word.lower())
+print(a)

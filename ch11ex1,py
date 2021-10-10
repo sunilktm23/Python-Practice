@@ -1,0 +1,7 @@
+def fun(n,*args):
+	list=[]
+	for i in args:
+		list.append(i**n)
+	return list
+num=[1,2,3,4,5]
+print(fun(3,*num))
